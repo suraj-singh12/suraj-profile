@@ -2,27 +2,34 @@
 
 <head>
     <title>Profile | Suraj Singh</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <center>
         <h1>Suraj Singh</h1>
-        <img src="images/myPhoto.jpg" alt="Suraj Singh Photo" title="Suraj Singh" width="300px" height="auto">
-        
-        <h2>About</h2>
-        <div>
-            <p>
-                I am Suraj Singh, 2nd year B.Tech Computer Science and Engineering student of Lovely Professional
-                University, Punjab. <br/>
-                I am very fond of learning. I have a great interest in Web Development and so I am learning Full Stack
-                Web Development nowadays. <br/>
-                I also have interest in other programming languages such as C, C++, Java etc. and
-                operating systems including Windows and Linux. <br/>
-                To be very clear, I love to explore everything that
-                interests me. I am a curious person.
-            </p>
+        <hr /> <br />
+
+        <div class="profile-card">
+            <div class="profile-photo">
+                <img src="images/myPhoto.jpg" alt="Suraj Singh Photo" title="Suraj Singh" width="300px" height="auto">
+            </div>
+            <div class="profile-description">
+                <h2>About</h2> <br />
+                <p>
+                    I am Suraj Singh, 2nd year B.Tech Computer Science and Engineering student of Lovely Professional
+                    University, Punjab. <br />
+                    I am very fond of learning. I have a great interest in Web Development and so I am learning Full
+                    Stack
+                    Web Development nowadays. <br />
+                    I also have interest in other programming languages such as C, C++, Java etc. and
+                    operating systems including Windows and Linux. <br />
+                    To be very clear, I love to explore everything that
+                    interests me. I am a curious person.
+                </p>
+            </div>
         </div>
-        <br/>
+        <br />
 
 
         <h2>Skills</h2>
@@ -54,23 +61,35 @@
             <!-- Windows -->
             <img src="https://i.ibb.co/8cN12h8/windows.jpg" alt="windows" width="150px" height="100px" /> &nbsp;
             &nbsp;
-        </div> <br/>
+        </div> <br />
 
-        <h2>Hobbies</h2>
-        <div>
+        <div class="hobbies">
+            <h2>Hobbies</h2>
+
             <!-- poetry writing -->
-            <a href="https://www.instagram.com/my_emerging_thoughts/" target="_blank">
-            <img src="images/poetry.jpg" alt="a decent photo depicting poetry writing" title="Poetry Writing" width="150px" height="auto" /> </a>
+            <div style="margin-right: 4%;">
+                <a href="https://www.instagram.com/my_emerging_thoughts/" target="_blank">
+                    <img src="images/poetry.jpg" alt="a decent photo depicting poetry writing" title="Poetry Writing"
+                        width="100%" height="100%" /> </a>
+            </div>
 
             <!-- book reading -->
-            <img src="images/book reading.jfif" alt="a person reading book" title="Book reading" width="200px" height="150px">
+            <div style="margin-left: 4%;">
+                <img src="images/book reading.jfif" alt="a person reading book" title="Book reading" width="100%"
+                    height="100%">
+            </div>
         </div>
-        <br/>
+        <br style="right: clear;"/>
 
-        
+
         <!-- google map focusing punjab -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502070.807610935!2d73.15741798909497!3d30.998627513926714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391964aa569e7355%3A0x8fbd263103a38861!2sPunjab!5e0!3m2!1sen!2sin!4v1645365431637!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <br/> <br/>
+        <div class="google-maps">
+            <h2>Location</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502070.807610935!2d73.15741798909497!3d30.998627513926714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391964aa569e7355%3A0x8fbd263103a38861!2sPunjab!5e0!3m2!1sen!2sin!4v1645365431637!5m2!1sen!2sin"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <br /> <br />
 
         <h2>Get In Touch</h2>
         <footer>
@@ -86,6 +105,7 @@
             <a href="https://stackoverflow.com/users/15249634/suraj-singh/" target="_blank">
                 <img src="images/footer/stackoverflow-logo.png" alt="Stack Overflow logo" width="100px" height="40px" />
             </a> &nbsp;
+            <h3>&copy; copyright protected</h3>
         </footer>
 
     </center>

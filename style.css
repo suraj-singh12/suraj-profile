@@ -1,0 +1,48 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap');
+html {
+    background-color:azure;
+    font-family: 'Merriweather', serif;
+}
+hr {
+    border-color:aliceblue;
+}
+.profile-card {
+    /* font-family: 'Merriweather', serif; */
+    background-color:cornsilk;
+    display: inline-block;
+    margin: 2%;
+    padding: 2%;
+    width: 90%;
+}
+.profile-card > div {
+    height: 300px;
+}
+.profile-photo {
+    width: 30%;
+    float: left;
+}
+.profile-photo > img {
+    width: 95%;
+    height: 100%;
+}
+.profile-description {
+    width: 55%;
+    float: right;
+}
+.hobbies {
+    width: 60%;
+    /* background-color: red; */
+}
+.hobbies > div {
+    width: 40%;
+    height: 250px;
+    display: inline-block;
+    /* background-color: blue; */
+}
+iframe {
+    /* align-items: center; */
+    display: block;
+    /* margin-top: 2%; */
+
+}
