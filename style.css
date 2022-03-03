@@ -35,6 +35,7 @@ h2 {
 .profile-description {
     width: 55%;
     float: right;
+    overflow: auto;       /* now scrollbar will come, whenever text will try to go out of div */
 }
 
 /* skills part styling */
