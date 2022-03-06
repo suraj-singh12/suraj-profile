@@ -66,3 +66,6 @@ h2 {
 footer {
     width: 94%;
 }
+footer > a {
+    text-decoration: none;
+}
